@@ -12,6 +12,7 @@ const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'users', loadChildren: () => import('./users/users.module').then(mod => mod.UsersModule)},
   {path: '**', component: NotFoundComponent}
 ];
 

@@ -22,7 +22,7 @@ import { ProductComponent } from './home/product/product.component';
     FooterComponent,
     NavBarComponent,
     ListComponent,
-    ProductComponent
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
